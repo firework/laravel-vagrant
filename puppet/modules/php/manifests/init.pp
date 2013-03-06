@@ -4,6 +4,10 @@ class php {
     ensure => 'present',
   }
 
+  package { 'php5-mcrypt':
+    ensure => 'present',
+  }
+
   package { 'php5-mysql':
     ensure => 'present',
   }
