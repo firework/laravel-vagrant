@@ -21,4 +21,5 @@ include mysql
 include php
 include curl
 include composer
+include laravel
 
