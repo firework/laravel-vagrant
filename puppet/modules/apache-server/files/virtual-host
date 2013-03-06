@@ -2,7 +2,7 @@
   ServerName myapp
   DocumentRoot /vagrant/public
 
-  <Directory /vagrant/public>
+  <Directory /vagrant>
     AllowOverride All
     Allow from all
     EnableSendfile Off
