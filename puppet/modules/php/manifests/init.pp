@@ -16,6 +16,11 @@ class php {
     ensure => 'present',
   }
 
+  package { 'libapache2-mod-php5':
+    ensure  => 'present',
+    require => Package['apache2'],
+  }
+
 
   # Upgrade PEAR, install PHPUnit.
   exec { 'pear-upgrade':
