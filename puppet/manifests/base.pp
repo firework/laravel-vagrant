@@ -20,6 +20,7 @@ include apache-server
 include mysql
 include php
 include curl
+include git
 include composer
 include laravel
 
