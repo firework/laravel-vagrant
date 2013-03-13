@@ -16,6 +16,10 @@ class php {
     ensure => 'present',
   }
 
+  package { 'php5-sqlite':
+    ensure => 'present',
+  }
+
   package { 'php5-xdebug':
     ensure => 'present',
   }
