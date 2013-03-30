@@ -17,10 +17,10 @@ File    { require => Exec['update-packages'] }
 Package { require => Exec['update-packages'] }
 
 include apache-server
+include bash
 include mysql
 include php
 include curl
 include git
 include composer
 include laravel
-
