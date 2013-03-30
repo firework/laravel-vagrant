@@ -15,6 +15,7 @@ In addition to the usual LAMP stuff, we automatically:
 - Create a development database (`devdb`)
 - Point the document root at Laravel's `public` folder
 - Set the correct permissions on the Laravel `storage` directory
+- Set up a custom `~/.profile` to automatically `cd /vagrant` on SSH login.
 
 [phpunit]: http://www.phpunit.de/manual/current/en/index.html
 [composer]: http://getcomposer.org/
